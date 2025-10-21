@@ -14,8 +14,10 @@ export default function DesignSystemPage() {
           <h1 className="text-5xl md:text-7xl font-bold text-iron-black tracking-tight">Fleur du Fer</h1>
           <div className="h-1 w-24 bg-gilded-brass mx-auto" />
           <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
-            Where industrial elegance meets romantic florals. A design system that harmonizes the strength of iron with
-            the delicate beauty of flowers.
+            Where industrial elegance meets romantic florals. A design that harmonizes the strength of iron with the delicate beauty of flowers.
+          </p>
+          <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
+          Brand target audience focused on 25 to late 30s creatives.
           </p>
         </section>
 
