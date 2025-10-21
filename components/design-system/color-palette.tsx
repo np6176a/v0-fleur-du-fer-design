@@ -68,7 +68,7 @@ const colors = [
 
 export function ColorPalette() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="colors">
       {colors.map((color) => (
         <Card key={color.name} className="overflow-hidden border-2 hover:border-gilded-brass transition-colors">
           <div

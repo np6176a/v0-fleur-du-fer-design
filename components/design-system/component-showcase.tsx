@@ -6,7 +6,7 @@ import { Flower2, ShoppingBag, Heart, Star } from "lucide-react"
 
 export function ComponentShowcase() {
   return (
-    <div className="space-y-12">
+    <div className="space-y-12" id="components">
       {/* Buttons */}
       <Card className="p-8 space-y-6 border-2">
         <div className="space-y-2">

@@ -2,7 +2,7 @@ import { Card } from "@/components/ui/card"
 
 export function TypographyShowcase() {
   return (
-    <div className="space-y-8">
+    <div className="space-y-8" id="typography">
       {/* Headings */}
       <Card className="p-8 space-y-6 border-2">
         <div className="space-y-2">

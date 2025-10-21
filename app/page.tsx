@@ -20,7 +20,7 @@ export default function DesignSystemPage() {
         </section>
 
         {/* Color Palette */}
-        <section className="space-y-8">
+        <section id="colors" className="space-y-8 scroll-mt-24">
           <div className="text-center space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold text-iron-black">Color Palette</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -31,7 +31,7 @@ export default function DesignSystemPage() {
         </section>
 
         {/* Typography */}
-        <section className="space-y-8">
+        <section id="typography" className="space-y-8 scroll-mt-24">
           <div className="text-center space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold text-iron-black">Typography</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -42,7 +42,7 @@ export default function DesignSystemPage() {
         </section>
 
         {/* Components */}
-        <section className="space-y-8">
+        <section id="components" className="space-y-8 scroll-mt-24">
           <div className="text-center space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold text-iron-black">Components</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">

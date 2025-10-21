@@ -1,8 +1,20 @@
+"use client"
+
+import type React from "react"
+
 import Image from "next/image"
 
 export function BrandHeader() {
+  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, targetId: string) => {
+    e.preventDefault()
+    const element = document.getElementById(targetId)
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth", block: "start" })
+    }
+  }
+
   return (
-    <header className="bg-iron-black text-petal-ivory py-6 border-b-2 border-gilded-brass">
+    <header className="sticky top-0 z-50 bg-iron-black text-petal-ivory py-6 border-b-2 border-gilded-brass shadow-lg">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-4">
@@ -15,13 +27,25 @@ export function BrandHeader() {
             </div>
           </div>
           <nav className="hidden md:flex items-center gap-8">
-            <a href="#colors" className="text-sm hover:text-gilded-brass transition-colors">
+            <a
+              href="#colors"
+              onClick={(e) => handleNavClick(e, "colors")}
+              className="text-sm hover:text-gilded-brass transition-colors"
+            >
               Colors
             </a>
-            <a href="#typography" className="text-sm hover:text-gilded-brass transition-colors">
+            <a
+              href="#typography"
+              onClick={(e) => handleNavClick(e, "typography")}
+              className="text-sm hover:text-gilded-brass transition-colors"
+            >
               Typography
             </a>
-            <a href="#components" className="text-sm hover:text-gilded-brass transition-colors">
+            <a
+              href="#components"
+              onClick={(e) => handleNavClick(e, "components")}
+              className="text-sm hover:text-gilded-brass transition-colors"
+            >
               Components
             </a>
           </nav>
