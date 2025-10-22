@@ -107,7 +107,23 @@ export default function PromptsPage() {
                       </div>
                       <div className="prose prose-sm max-w-none md:w-1/2">
                         <p className="text-muted-foreground leading-relaxed">
-                          <strong className="text-iron-black">Initial Prompt:</strong> Create a photo real image of a model showcasing a steam punk style long coat. The model is a tall, curvy asian woman with spiky red bob cut hair, a mischievous smirk barely tilts her lips on her elegant face. She has steam punk style round sun glasses sitting on top of her head. She is wearing a cream crop top and black puffy short shorts and the long dark steam punk style overcoat that stops at her calves. The coat is dark gray/black leather, with a thin collar. The bottom is heavily embroidered pink to white rose petals. The petal embroidery starts at the collar with ruby red petals falling to the bottom turning pink and then white at the bottom of the cloak like they are losing their color the further they fall. The collar and back should only have a few petals, while bottom is heavily embroidered. The model is also wearing dark rose ankle boots with rose shaped metal buckles and rose shaped heels that. She is posing with grace and confidence, a hand on her hip, with a defiant fun attitude. She is standing in a brightly lit cobbled street looking down to the camera. There are electric wires criss crossing the skies of the street, from poles and buildings. The buildings in a steam punk theme are bright and colorful with gears and mechanical parts built into them. The evening sunlight cuts through steam behind the model to shine up on her, the street and the buildings. Style: steampunk floral. --chaos 5 --v 7 --stylize 150
+                          <strong className="text-iron-black">Initial Prompt:</strong> Create a photo real image of a
+                          model showcasing a steam punk style long coat. The model is a tall, curvy asian woman with
+                          spiky red bob cut hair, a mischievous smirk barely tilts her lips on her elegant face. She has
+                          steam punk style round sun glasses sitting on top of her head. She is wearing a cream crop top
+                          and black puffy short shorts and the long dark steam punk style overcoat that stops at her
+                          calves. The coat is dark gray/black leather, with a thin collar. The bottom is heavily
+                          embroidered pink to white rose petals. The petal embroidery starts at the collar with ruby red
+                          petals falling to the bottom turning pink and then white at the bottom of the cloak like they
+                          are losing their color the further they fall. The collar and back should only have a few
+                          petals, while bottom is heavily embroidered. The model is also wearing dark rose ankle boots
+                          with rose shaped metal buckles and rose shaped heels that. She is posing with grace and
+                          confidence, a hand on her hip, with a defiant fun attitude. She is standing in a brightly lit
+                          cobbled street looking down to the camera. There are electric wires criss crossing the skies
+                          of the street, from poles and buildings. The buildings in a steam punk theme are bright and
+                          colorful with gears and mechanical parts built into them. The evening sunlight cuts through
+                          steam behind the model to shine up on her, the street and the buildings. Style: steampunk
+                          floral. --chaos 5 --v 7 --stylize 150
                         </p>
                       </div>
                     </div>
@@ -124,7 +140,16 @@ export default function PromptsPage() {
                       </div>
                       <div className="prose prose-sm max-w-none md:w-1/2">
                         <p className="text-muted-foreground leading-relaxed">
-                          <strong className="text-iron-black">Refined Prompt:</strong> A confident asian woman with short spiky red hair, wearing a white top, chic black shorts, black rose patterned high heeled ankle boots, and a calf length black steam punk style velvet coat with roses embroidered on it, the petals embroidery starts at the collar of the coat with ruby red petals falling to the bottom turning pink and then white at the bottom of the coat like they are losing their color the further they fall, the standing on a cobbled street with industrial buildings behind her during golden hour with lens flare. The mood is cinematic and elegant. posing naturally looking down at the camera, with gentle shadows and an evocative color palette. The scene is fashion-forward and emotionally ambient. Editorial-style photography with natural light, compositional grace, and emotional depth. --chaos 5 --ar 6:7 --v 7 --stylize 50 --p p6y8asw
+                          <strong className="text-iron-black">Refined Prompt:</strong> A confident asian woman with
+                          short spiky red hair, wearing a white top, chic black shorts, black rose patterned high heeled
+                          ankle boots, and a calf length black steam punk style velvet coat with roses embroidered on
+                          it, the petals embroidery starts at the collar of the coat with ruby red petals falling to the
+                          bottom turning pink and then white at the bottom of the coat like they are losing their color
+                          the further they fall, the standing on a cobbled street with industrial buildings behind her
+                          during golden hour with lens flare. The mood is cinematic and elegant. posing naturally
+                          looking down at the camera, with gentle shadows and an evocative color palette. The scene is
+                          fashion-forward and emotionally ambient. Editorial-style photography with natural light,
+                          compositional grace, and emotional depth. --chaos 5 --ar 6:7 --v 7 --stylize 50 --p p6y8asw
                         </p>
                       </div>
                     </div>
@@ -159,7 +184,18 @@ export default function PromptsPage() {
                       </div>
                       <div className="prose prose-sm max-w-none md:w-1/2">
                         <p className="text-muted-foreground leading-relaxed">
-                          <strong className="text-iron-black">Initial Prompt:</strong> Create image of a Indian model showcasing a sunflower themed outfit. The model is around 5'3 height, curvy with an asymmetrical pixie cut black hair, spiked to frame her face. Her back is to the camera at an angle and she is looking over her shoulder down at the camera showing her side and back, her hand in the pockets of her pants. The top is steam punk crop top made with thick rigid fabric, with bright sunflower yellow mesh fabric on the sides. The back of the top is full print of one sunflower zoomed in, the sleeves are white and stop at her elbows. For the bottom she is wearing low hung butt and hip hugging bright yellow shorts that have wide legs and stop cinched just past her knees with black leather buckles. She has brown leather high heeled sandals on her feet and is standing on a cement block railing over looking a steam punk style city. The city view is obscured a little with steam, has layers of red brick building, the sun light is streaming across hitting the model and the buildings. --chaos 5 --v 7 --stylize 150
+                          <strong className="text-iron-black">Initial Prompt:</strong> Create image of a Indian model
+                          showcasing a sunflower themed outfit. The model is around 5'3 height, curvy with an
+                          asymmetrical pixie cut black hair, spiked to frame her face. Her back is to the camera at an
+                          angle and she is looking over her shoulder down at the camera showing her side and back, her
+                          hand in the pockets of her pants. The top is steam punk crop top made with thick rigid fabric,
+                          with bright sunflower yellow mesh fabric on the sides. The back of the top is full print of
+                          one sunflower zoomed in, the sleeves are white and stop at her elbows. For the bottom she is
+                          wearing low hung butt and hip hugging bright yellow shorts that have wide legs and stop
+                          cinched just past her knees with black leather buckles. She has brown leather high heeled
+                          sandals on her feet and is standing on a cement block railing over looking a steam punk style
+                          city. The city view is obscured a little with steam, has layers of red brick building, the sun
+                          light is streaming across hitting the model and the buildings. --chaos 5 --v 7 --stylize 150
                         </p>
                       </div>
                     </div>
@@ -176,7 +212,16 @@ export default function PromptsPage() {
                       </div>
                       <div className="prose prose-sm max-w-none md:w-1/2">
                         <p className="text-muted-foreground leading-relaxed">
-                          <strong className="text-iron-black">Refined Prompt:</strong> A confident indian woman with her hair in a pony tails with a shaved undercut, wearing a steam punk style crop top with a big bright sunflower in the center, and white lace fabric on the sides and elbow length sleeves, chic low hip hugging yellow pants that have wide legs and stop cinched just past her knees with black leather buckles, and brown leather heeled sandals, the standing on a cement balcony with industrial buildings behind her during golden hour with lens flare. The mood is cinematic and elegant. posing naturally looking down at the camera, with gentle shadows and an evocative color palette. The scene is fashion-forward and emotionally ambient. Editorial-style photography with natural light, compositional grace, and emotional depth. --chaos 5 --ar 6:7 --v 7 --stylize 50 --p p6y8asw
+                          <strong className="text-iron-black">Refined Prompt:</strong> A confident indian woman with her
+                          hair in a pony tails with a shaved undercut, wearing a steam punk style crop top with a big
+                          bright sunflower in the center, and white lace fabric on the sides and elbow length sleeves,
+                          chic low hip hugging yellow pants that have wide legs and stop cinched just past her knees
+                          with black leather buckles, and brown leather heeled sandals, the standing on a cement balcony
+                          with industrial buildings behind her during golden hour with lens flare. The mood is cinematic
+                          and elegant. posing naturally looking down at the camera, with gentle shadows and an evocative
+                          color palette. The scene is fashion-forward and emotionally ambient. Editorial-style
+                          photography with natural light, compositional grace, and emotional depth. --chaos 5 --ar 6:7
+                          --v 7 --stylize 50 --p p6y8asw
                         </p>
                       </div>
                     </div>
@@ -211,7 +256,15 @@ export default function PromptsPage() {
                       </div>
                       <div className="prose prose-sm max-w-none md:w-1/2">
                         <p className="text-muted-foreground leading-relaxed">
-                          <strong className="text-iron-black">Initial Prompt:</strong> Create image of an african model showcasing a bluebell themed outfit. The model is around 5'5 height, 170lbs, curvy with dreadlocks weaved with bright blue satin ribbon. The camera is facing her, she is looking down with a subtle smile. She is holding white lace parasol, wearing a bluebell blue dress that has a lace high collar, white and blue lace corset, sleeveless. The skirt is puffy and folds inward with folds in steampunk style. She wearing heavy healed blue boots with bluebells on them. She is standing in the middle of a cobbled street with a steam punk industrial buildings on either side, steam rising from behind her. She looks fiercely elegant stepping out of the steam. --chaos 5 --v 7 --stylize 150
+                          <strong className="text-iron-black">Initial Prompt:</strong> Create image of an african model
+                          showcasing a bluebell themed outfit. The model is around 5'5 height, 170lbs, curvy with
+                          dreadlocks weaved with bright blue satin ribbon. The camera is facing her, she is looking down
+                          with a subtle smile. She is holding white lace parasol, wearing a bluebell blue dress that has
+                          a lace high collar, white and blue lace corset, sleeveless. The skirt is puffy and folds
+                          inward with folds in steampunk style. She wearing heavy healed blue boots with bluebells on
+                          them. She is standing in the middle of a cobbled street with a steam punk industrial buildings
+                          on either side, steam rising from behind her. She looks fiercely elegant stepping out of the
+                          steam. --chaos 5 --v 7 --stylize 150
                         </p>
                       </div>
                     </div>
@@ -228,7 +281,15 @@ export default function PromptsPage() {
                       </div>
                       <div className="prose prose-sm max-w-none md:w-1/2">
                         <p className="text-muted-foreground leading-relaxed">
-                          <strong className="text-iron-black">Refined Prompt:</strong> A confident african woman with her hair in shoulder length curls, wearing a chic white lace sleeveless top, with a steam punk style ultramarine blue satin puffy asymmetrical skirt that folds inwards and has bluebells embroidered on it , with blue leather buckled floral shoes, standing on a wooden dock with industrial buildings behind her during golden hour with lens flare. The mood is cinematic and elegant. posing naturally looking down at the camera, with gentle shadows and an evocative color palette. The scene is fashion-forward and emotionally ambient. Editorial-style photography with natural light, compositional grace, and emotional depth. --chaos 5 --ar 6:7 --v 7 --stylize 50 --p p6y8asw
+                          <strong className="text-iron-black">Refined Prompt:</strong> A confident african woman with
+                          her hair in shoulder length curls, wearing a chic white lace sleeveless top, with a steam punk
+                          style ultramarine blue satin puffy asymmetrical skirt that folds inwards and has bluebells
+                          embroidered on it , with blue leather buckled floral shoes, standing on a wooden dock with
+                          industrial buildings behind her during golden hour with lens flare. The mood is cinematic and
+                          elegant. posing naturally looking down at the camera, with gentle shadows and an evocative
+                          color palette. The scene is fashion-forward and emotionally ambient. Editorial-style
+                          photography with natural light, compositional grace, and emotional depth. --chaos 5 --ar 6:7
+                          --v 7 --stylize 50 --p p6y8asw
                         </p>
                       </div>
                     </div>
@@ -242,10 +303,8 @@ export default function PromptsPage() {
 
       <footer className="bg-iron-black text-petal-ivory py-12 mt-24">
         <div className="container mx-auto px-4 text-center space-y-4">
-          <div className="flex items-center justify-center gap-2">
-            <div className="w-8 h-8 border-2 border-gilded-brass rounded-full flex items-center justify-center">
-              <span className="text-gilded-brass text-xs font-serif">F</span>
-            </div>
+          <div className="flex items-center justify-center gap-3">
+            <img src="/logo.png" alt="Fleur du Fer Logo" className="w-12 h-12" />
             <span className="text-2xl font-serif font-bold">Fleur du Fer</span>
           </div>
           <p className="text-sm text-petal-ivory/70">Fleur du Fer © 2025 • Where Iron Meets Flower</p>

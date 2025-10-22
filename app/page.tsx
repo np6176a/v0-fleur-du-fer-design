@@ -33,10 +33,8 @@ export default function HomePage() {
       {/* Footer */}
       <footer className="bg-iron-black text-petal-ivory py-12 mt-24">
         <div className="container mx-auto px-4 text-center space-y-4">
-          <div className="flex items-center justify-center gap-2">
-            <div className="w-8 h-8 border-2 border-gilded-brass rounded-full flex items-center justify-center">
-              <span className="text-gilded-brass text-xs font-serif">F</span>
-            </div>
+          <div className="flex items-center justify-center gap-3">
+            <img src="/logo.png" alt="Fleur du Fer Logo" className="w-12 h-12" />
             <span className="text-2xl font-serif font-bold">Fleur du Fer</span>
           </div>
           <p className="text-sm text-petal-ivory/70">Fleur du Fer © 2025 • Where Iron Meets Flower</p>
