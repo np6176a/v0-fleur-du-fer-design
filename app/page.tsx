@@ -1,57 +1,32 @@
-import { ColorPalette } from "@/components/design-system/color-palette"
-import { TypographyShowcase } from "@/components/design-system/typography-showcase"
-import { ComponentShowcase } from "@/components/design-system/component-showcase"
 import { BrandHeader } from "@/components/design-system/brand-header"
 
-export default function DesignSystemPage() {
+export default function HomePage() {
   return (
     <div className="min-h-screen">
       <BrandHeader />
 
-      <main className="container mx-auto px-4 py-12 space-y-24">
-        {/* Introduction */}
-        <section className="max-w-4xl mx-auto text-center space-y-6">
+      <main className="container mx-auto px-4 py-12">
+        {/* Hero Section */}
+        <section className="max-w-4xl mx-auto text-center space-y-6 py-24">
           <h1 className="text-5xl md:text-7xl font-bold text-iron-black tracking-tight">Fleur du Fer</h1>
+
+          <div className="flex justify-center my-8">
+            <div className="relative w-full max-w-md aspect-[9/16] rounded-lg overflow-hidden shadow-lg border-2 border-gilded-brass/20">
+              <iframe
+                src="https://www.youtube.com/embed/qn9FluBWR34"
+                title="Fleur du Fer Brand Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="absolute inset-0 w-full h-full"
+              />
+            </div>
+          </div>
+
           <div className="h-1 w-24 bg-gilded-brass mx-auto" />
           <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
-            Where industrial elegance meets romantic florals. A design that harmonizes the strength of iron with the delicate beauty of flowers.
+            Where industrial elegance meets romantic florals. A design system that harmonizes the strength of iron with
+            the delicate beauty of flowers.
           </p>
-          <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
-          Brand target audience focused on 25 to late 30s creatives.
-          </p>
-        </section>
-
-        {/* Color Palette */}
-        <section id="colors" className="space-y-8 scroll-mt-24">
-          <div className="text-center space-y-4">
-            <h2 className="text-4xl md:text-5xl font-bold text-iron-black">Color Palette</h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              A carefully curated palette balancing dark industrial tones with warm metallics and vibrant florals
-            </p>
-          </div>
-          <ColorPalette />
-        </section>
-
-        {/* Typography */}
-        <section id="typography" className="space-y-8 scroll-mt-24">
-          <div className="text-center space-y-4">
-            <h2 className="text-4xl md:text-5xl font-bold text-iron-black">Typography</h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Elegant serif typefaces that convey luxury and sophistication
-            </p>
-          </div>
-          <TypographyShowcase />
-        </section>
-
-        {/* Components */}
-        <section id="components" className="space-y-8 scroll-mt-24">
-          <div className="text-center space-y-4">
-            <h2 className="text-4xl md:text-5xl font-bold text-iron-black">Components</h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              UI elements designed for luxury fashion experiences
-            </p>
-          </div>
-          <ComponentShowcase />
         </section>
       </main>
 
@@ -64,7 +39,7 @@ export default function DesignSystemPage() {
             </div>
             <span className="text-2xl font-serif font-bold">Fleur du Fer</span>
           </div>
-          <p className="text-sm text-petal-ivory/70">Design System © 2025 • Where Iron Meets Flower</p>
+          <p className="text-sm text-petal-ivory/70">Fleur du Fer © 2025 • Where Iron Meets Flower</p>
         </div>
       </footer>
     </div>
