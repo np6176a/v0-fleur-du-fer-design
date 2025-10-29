@@ -7,26 +7,42 @@ export default function HomePage() {
 
       <main className="container mx-auto px-4 py-12">
         {/* Hero Section */}
-        <section className="max-w-4xl mx-auto text-center space-y-6 py-24">
-          <h1 className="text-5xl md:text-7xl font-bold text-iron-black tracking-tight">Fleur du Fer</h1>
+        <section className="max-w-6xl mx-auto py-24">
+          <h1 className="text-5xl md:text-7xl font-bold text-iron-black tracking-tight text-center mb-16">
+            Fleur du Fer
+          </h1>
 
-          <div className="flex justify-center my-8">
-            <div className="relative w-full max-w-md aspect-[9/16] rounded-lg overflow-hidden shadow-lg border-2 border-gilded-brass/20">
-              <iframe
-                src="https://www.youtube.com/embed/qn9FluBWR34"
-                title="Fleur du Fer Brand Video"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                className="absolute inset-0 w-full h-full"
-              />
+          <div className="flex flex-col md:flex-row gap-12 items-center">
+            {/* Left Column - V0 Project Text */}
+            <div className="flex-1 flex items-center justify-center">
+              <p className="text-2xl md:text-3xl font-serif text-iron-black text-center leading-relaxed">
+                Built with V0 prompts for Class Project.
+              </p>
+            </div>
+
+            {/* Right Column - Video and Tagline */}
+            <div className="flex-1 space-y-6">
+              <div className="flex justify-center">
+                <div className="relative w-full max-w-md aspect-[9/16] rounded-lg overflow-hidden shadow-lg border-2 border-gilded-brass/20">
+                  <iframe
+                    src="https://www.youtube.com/embed/qn9FluBWR34"
+                    title="Fleur du Fer Brand Video"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    className="absolute inset-0 w-full h-full"
+                  />
+                </div>
+              </div>
+
+              <div className="text-center space-y-4">
+                <div className="h-1 w-24 bg-gilded-brass mx-auto" />
+                <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
+                  Where industrial elegance meets romantic florals. A design system that harmonizes the strength of iron
+                  with the delicate beauty of flowers.
+                </p>
+              </div>
             </div>
           </div>
-
-          <div className="h-1 w-24 bg-gilded-brass mx-auto" />
-          <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
-            Where industrial elegance meets romantic florals. A design system that harmonizes the strength of iron with
-            the delicate beauty of flowers.
-          </p>
         </section>
       </main>
 
