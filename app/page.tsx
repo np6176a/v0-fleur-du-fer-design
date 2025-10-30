@@ -7,14 +7,14 @@ export default function HomePage() {
 
       <main className="container mx-auto px-4 py-12">
         {/* Hero Section */}
-        <section className="max-w-6xl mx-auto py-24">
-          <h1 className="text-5xl md:text-7xl font-bold text-iron-black tracking-tight text-center mb-16">
-            Fleur du Fer
-          </h1>
+        <section className="max-w-6xl mx-auto">
 
           <div className="flex flex-col md:flex-row gap-12 items-center">
             {/* Left Column - V0 Project Text */}
-            <div className="flex-1 flex items-center justify-center">
+            <div className="flex-1 flex flex-col items-center justify-center">
+            <h1 className="text-5xl md:text-7xl font-bold text-iron-black tracking-tight text-center mb-16">
+            Fleur du Fer
+          </h1>
               <p className="text-2xl md:text-3xl font-serif text-iron-black text-center leading-relaxed">
                 Built with V0 prompts for Class Project.
               </p>
